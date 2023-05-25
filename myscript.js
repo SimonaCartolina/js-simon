@@ -9,7 +9,13 @@ setTimeout(function(){
 const countdown=setInterval(function(){ 
     console.log(secondsToShow);
 
-    secondsToShow--}, 
+    secondsToShow--;}, 
     1000);
 
-    console.log(countdown);
+let divContainer=document.querySelector('div.container');
+pElement=document.createElement('p');
+pElement.innerHTML= 
+`<p>
+${'countdown: '+ secondsToShow} 
+</p>`;
+divContainer.appendChild(pElement);

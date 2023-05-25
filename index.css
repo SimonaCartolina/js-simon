@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(98, 176, 202);
+    padding:3rem 2rem;
+}
+div.container{
+    height:85vh;
+    width:80%;
+    text-align:center;
+    background-color:azure;
+    color:rgb(32, 178, 134);
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:2rem 0.80rem;
+    margin:0 auto;
+}
+div.container p{
+font-size: 3rem;
+color:black;
+
+
+}
