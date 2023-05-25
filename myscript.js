@@ -31,11 +31,15 @@ ${'countdown: '+ Date}
 </p>`;
 divContainer.appendChild(pElement);*/
 
-let oggi = Date.now("2023-05-25");
+let oggi = Date.now();
 
-const domani = new Date("2023-05-25");
+const domani = new Date(2023, 05, 26, 10, 00, 0, 0);
 
-let missingTime= (oggi - domani);
+let missingTime= (domani-oggi);
+
+if(missingTime==0){
+    alert('It s time')
+}
 
 let divContainer=document.querySelector('div.container');
 pElement=document.createElement('p');
